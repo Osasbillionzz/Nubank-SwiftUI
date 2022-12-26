@@ -11,6 +11,8 @@
 		081429EC295A628100D0765B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081429EB295A628100D0765B /* ContentView.swift */; };
 		081429EE295A628300D0765B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081429ED295A628300D0765B /* Assets.xcassets */; };
 		081429F1295A628300D0765B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081429F0295A628300D0765B /* Preview Assets.xcassets */; };
+		081429F9295A697B00D0765B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081429F8295A697B00D0765B /* HeaderView.swift */; };
+		081429FC295A69A800D0765B /* NubankColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081429FB295A69A800D0765B /* NubankColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		081429EB295A628100D0765B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		081429ED295A628300D0765B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		081429F0295A628300D0765B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		081429F8295A697B00D0765B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		081429FB295A69A800D0765B /* NubankColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubankColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		081429E8295A628100D0765B /* Nubank */ = {
 			isa = PBXGroup;
 			children = (
+				081429FA295A699A00D0765B /* Helpers */,
+				081429F7295A696A00D0765B /* MainPage */,
 				081429E9295A628100D0765B /* NubankApp.swift */,
 				081429EB295A628100D0765B /* ContentView.swift */,
 				081429ED295A628300D0765B /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				081429F0295A628300D0765B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		081429F7295A696A00D0765B /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				081429F8295A697B00D0765B /* HeaderView.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		081429FA295A699A00D0765B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				081429FB295A69A800D0765B /* NubankColors.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				081429EC295A628100D0765B /* ContentView.swift in Sources */,
+				081429F9295A697B00D0765B /* HeaderView.swift in Sources */,
+				081429FC295A69A800D0765B /* NubankColors.swift in Sources */,
 				081429EA295A628100D0765B /* NubankApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
