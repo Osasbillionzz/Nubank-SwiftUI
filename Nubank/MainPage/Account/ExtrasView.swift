@@ -31,12 +31,14 @@ struct ExtraView: View {
                 .multilineTextAlignment(.leading)
                 .font(.system(size: 14))
                 .padding()
+                .frame(width: 300, height: 100)
+                .background(NubankColors.lightGray)
+                .cornerRadius(16)
         })
-        .frame(width: 300, height: 100)
-        .background(NubankColors.lightGray)
-        .cornerRadius(16)
     }
 }
+
+// MARK: - Helpers
 
 struct TextBox: Identifiable {
     let id = UUID()
