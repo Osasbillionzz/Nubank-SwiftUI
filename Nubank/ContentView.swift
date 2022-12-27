@@ -9,13 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            NubankColors.purple
-                .ignoresSafeArea()
-            VStack {
-                HeaderView()
-                Spacer()
-            }
+        VStack {
+            HeaderView()
+                .background(NubankColors.purple)
+            AccountView()
+                .background(Color.white)
+            Spacer()
         }
     }
 }
