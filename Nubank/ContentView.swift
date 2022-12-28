@@ -8,15 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    var CustomDivider: some View {
-        Divider()
-            .frame(minHeight: 2)
-            .background(NubankColors.lightGray)
-            .padding(.vertical)
-    }
-    
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack {
                 HeaderView()
                 
@@ -29,6 +22,8 @@ struct ContentView: View {
                     
                     CustomDivider
                     
+                    FollowTooView()
+                    
                     Spacer()
                 }
                 .background(.white)
@@ -38,9 +33,17 @@ struct ContentView: View {
     }
 }
 
+extension ContentView {
+    var CustomDivider: some View {
+        Divider()
+            .frame(minHeight: 2)
+            .background(NubankColors.lightGray)
+            .padding(.vertical)
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-
