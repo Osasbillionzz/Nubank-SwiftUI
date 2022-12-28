@@ -24,6 +24,7 @@
 		08142A11295BEE9800D0765B /* MyUltravioletaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A10295BEE9800D0765B /* MyUltravioletaView.swift */; };
 		08142A14295BF07300D0765B /* FollowTooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A13295BF07300D0765B /* FollowTooView.swift */; };
 		08142A16295BF09000D0765B /* PaymentAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A15295BF09000D0765B /* PaymentAssistantView.swift */; };
+		08142A19295BF2EE00D0765B /* BorrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A18295BF2EE00D0765B /* BorrowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		08142A10295BEE9800D0765B /* MyUltravioletaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUltravioletaView.swift; sourceTree = "<group>"; };
 		08142A13295BF07300D0765B /* FollowTooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTooView.swift; sourceTree = "<group>"; };
 		08142A15295BF09000D0765B /* PaymentAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAssistantView.swift; sourceTree = "<group>"; };
+		08142A18295BF2EE00D0765B /* BorrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		081429F7295A696A00D0765B /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
+				08142A17295BF2DC00D0765B /* BorrowView */,
 				08142A12295BF06000D0765B /* FollowToo */,
 				08142A0D295BEB7100D0765B /* CreditCard */,
 				081429FD295A72CE00D0765B /* Header */,
@@ -152,6 +155,14 @@
 				08142A15295BF09000D0765B /* PaymentAssistantView.swift */,
 			);
 			path = FollowToo;
+			sourceTree = "<group>";
+		};
+		08142A17295BF2DC00D0765B /* BorrowView */ = {
+			isa = PBXGroup;
+			children = (
+				08142A18295BF2EE00D0765B /* BorrowView.swift */,
+			);
+			path = BorrowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08142A02295A731800D0765B /* AccountView.swift in Sources */,
+				08142A19295BF2EE00D0765B /* BorrowView.swift in Sources */,
 				081429EC295A628100D0765B /* ContentView.swift in Sources */,
 				08142A06295A77F800D0765B /* MyCardsView.swift in Sources */,
 				08142A0C295BAF1600D0765B /* ExtrasView.swift in Sources */,

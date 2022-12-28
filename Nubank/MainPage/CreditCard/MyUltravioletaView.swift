@@ -29,7 +29,7 @@ struct MyUltravioletaView: View {
             .frame(width: 350, height: 60)
             .background( colorScheme == .dark ? NubankColors.darkGray : NubankColors.lightGray)
             .cornerRadius(16)
-            .padding()
+            .padding([.top, .horizontal])
         })
     }
 }

@@ -14,15 +14,23 @@ struct ContentView: View {
                 HeaderView()
                 
                 VStack {
+                    // Conta
                     AccountView()
                     
                     CustomDivider
                     
+                    // Cartão de Crédito
                     CreditCardView()
                     
                     CustomDivider
                     
+                    // Acompanhe Também
                     FollowTooView()
+                    
+                    CustomDivider
+                    
+                    // Empréstimos
+                    BorrowView()
                     
                     Spacer()
                 }
