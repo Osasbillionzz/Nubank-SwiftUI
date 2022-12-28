@@ -23,7 +23,7 @@ struct ServicesScrollView: View {
     ]
     
     var body: some View {
-        ScrollView(.horizontal) {
+        ScrollView(.horizontal, showsIndicators: false) {
             HStack(alignment: .top) {
                 ForEach(services, id: \.title) { service in
                     Button {

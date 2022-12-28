@@ -15,7 +15,8 @@ struct Service {
 struct AccountView: View {
     var body: some View {
         VStack {
-            AccountSegueView()
+            SegueView(title: "Conta")
+                .padding()
             
             BalanceView()
             

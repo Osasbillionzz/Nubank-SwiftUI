@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ExtrasView: View {
     var body: some View {
-        ScrollView(.horizontal) {
+        ScrollView(.horizontal, showsIndicators: false) {
             HStack(alignment: .top) {
                 ForEach(textBoxes) { textBox in
                     ExtraView(message: textBox.message)
@@ -55,7 +55,7 @@ let textBoxes: [TextBox] = [
     TextBox(message:
                 Group {
                     Text("Você tem até ").foregroundColor(.primary)   +
-                    Text("R$ 5.000,00 ").foregroundColor(NubankColors.purple) +
+                    Text("R$5.000,00 ").foregroundColor(NubankColors.purple) +
                     Text("disponíveis para empréstimo.").foregroundColor(.primary)
                 }
            ),

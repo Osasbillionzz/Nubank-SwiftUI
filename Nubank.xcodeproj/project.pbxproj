@@ -18,8 +18,10 @@
 		08142A04295A739F00D0765B /* ServicesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A03295A739F00D0765B /* ServicesScrollView.swift */; };
 		08142A06295A77F800D0765B /* MyCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A05295A77F800D0765B /* MyCardsView.swift */; };
 		08142A08295A781100D0765B /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A07295A781100D0765B /* BalanceView.swift */; };
-		08142A0A295A782F00D0765B /* AccountSegueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A09295A782F00D0765B /* AccountSegueView.swift */; };
+		08142A0A295A782F00D0765B /* SegueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A09295A782F00D0765B /* SegueView.swift */; };
 		08142A0C295BAF1600D0765B /* ExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A0B295BAF1600D0765B /* ExtrasView.swift */; };
+		08142A0F295BEB8300D0765B /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A0E295BEB8300D0765B /* CreditCardView.swift */; };
+		08142A11295BEE9800D0765B /* MyUltravioletaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A10295BEE9800D0765B /* MyUltravioletaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,10 @@
 		08142A03295A739F00D0765B /* ServicesScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesScrollView.swift; sourceTree = "<group>"; };
 		08142A05295A77F800D0765B /* MyCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsView.swift; sourceTree = "<group>"; };
 		08142A07295A781100D0765B /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
-		08142A09295A782F00D0765B /* AccountSegueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSegueView.swift; sourceTree = "<group>"; };
+		08142A09295A782F00D0765B /* SegueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueView.swift; sourceTree = "<group>"; };
 		08142A0B295BAF1600D0765B /* ExtrasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasView.swift; sourceTree = "<group>"; };
+		08142A0E295BEB8300D0765B /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		08142A10295BEE9800D0765B /* MyUltravioletaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUltravioletaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		081429F7295A696A00D0765B /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
+				08142A0D295BEB7100D0765B /* CreditCard */,
 				081429FD295A72CE00D0765B /* Header */,
 				08142A00295A730100D0765B /* Account */,
 			);
@@ -120,10 +125,19 @@
 				08142A03295A739F00D0765B /* ServicesScrollView.swift */,
 				08142A05295A77F800D0765B /* MyCardsView.swift */,
 				08142A07295A781100D0765B /* BalanceView.swift */,
-				08142A09295A782F00D0765B /* AccountSegueView.swift */,
+				08142A09295A782F00D0765B /* SegueView.swift */,
 				08142A0B295BAF1600D0765B /* ExtrasView.swift */,
 			);
 			path = Account;
+			sourceTree = "<group>";
+		};
+		08142A0D295BEB7100D0765B /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				08142A0E295BEB8300D0765B /* CreditCardView.swift */,
+				08142A10295BEE9800D0765B /* MyUltravioletaView.swift */,
+			);
+			path = CreditCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,12 +215,14 @@
 				08142A06295A77F800D0765B /* MyCardsView.swift in Sources */,
 				08142A0C295BAF1600D0765B /* ExtrasView.swift in Sources */,
 				08142A04295A739F00D0765B /* ServicesScrollView.swift in Sources */,
+				08142A11295BEE9800D0765B /* MyUltravioletaView.swift in Sources */,
 				081429FF295A72E200D0765B /* ProfileImageView.swift in Sources */,
 				081429F9295A697B00D0765B /* HeaderView.swift in Sources */,
 				08142A08295A781100D0765B /* BalanceView.swift in Sources */,
 				081429FC295A69A800D0765B /* NubankColors.swift in Sources */,
-				08142A0A295A782F00D0765B /* AccountSegueView.swift in Sources */,
+				08142A0A295A782F00D0765B /* SegueView.swift in Sources */,
 				081429EA295A628100D0765B /* NubankApp.swift in Sources */,
+				08142A0F295BEB8300D0765B /* CreditCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

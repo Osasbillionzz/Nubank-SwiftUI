@@ -7,13 +7,16 @@
 
 import SwiftUI
 
-struct AccountSegueView: View {
+struct SegueView: View {
+    let title: String
+    
     var body: some View {
         HStack {
-            Text("Conta")
+            Text(title)
+                .font(.title3)
+                .fontWeight(.medium)
             Spacer()
             Image(systemName: "chevron.right")
         }
-        .padding()
     }
 }
