@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainPageView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack {
@@ -37,11 +37,15 @@ struct ContentView: View {
                 .background(.white)
             }
         }
-        .background(NubankColors.purple)
+        .background(
+            VStack(spacing: .zero) {
+                NubankColors.purple.ignoresSafeArea(); Color.white
+            }
+        )
     }
 }
 
-extension ContentView {
+extension MainPageView {
     var CustomDivider: some View {
         Divider()
             .frame(minHeight: 2)
@@ -49,6 +53,38 @@ extension ContentView {
             .padding(.vertical)
     }
 }
+
+struct ContentView: View {
+    var body: some View {
+        TabView {
+            MainPageView()
+                .tabItem {
+                    Image(systemName: "arrow.up.arrow.down")
+                }
+            
+            // Investments
+            Text("")
+                .tabItem {
+                    Image(systemName: "dollarsign")
+                }
+            
+            // Shopping
+            Text("")
+                .tabItem {
+                    Image(systemName: "bag")
+                }
+            
+            // Bolão
+            Text("")
+                .tabItem {
+                    Image(systemName: "sportscourt")
+                }
+        }
+        .accentColor(NubankColors.purple)
+    }
+}
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
