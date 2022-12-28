@@ -25,6 +25,7 @@
 		08142A14295BF07300D0765B /* FollowTooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A13295BF07300D0765B /* FollowTooView.swift */; };
 		08142A16295BF09000D0765B /* PaymentAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A15295BF09000D0765B /* PaymentAssistantView.swift */; };
 		08142A19295BF2EE00D0765B /* BorrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A18295BF2EE00D0765B /* BorrowView.swift */; };
+		08142A1B295BFFB800D0765B /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08142A1A295BFFB800D0765B /* MainPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		08142A13295BF07300D0765B /* FollowTooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowTooView.swift; sourceTree = "<group>"; };
 		08142A15295BF09000D0765B /* PaymentAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAssistantView.swift; sourceTree = "<group>"; };
 		08142A18295BF2EE00D0765B /* BorrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowView.swift; sourceTree = "<group>"; };
+		08142A1A295BFFB800D0765B /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				08142A0D295BEB7100D0765B /* CreditCard */,
 				081429FD295A72CE00D0765B /* Header */,
 				08142A00295A730100D0765B /* Account */,
+				08142A1A295BFFB800D0765B /* MainPageView.swift */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				08142A16295BF09000D0765B /* PaymentAssistantView.swift in Sources */,
 				081429F9295A697B00D0765B /* HeaderView.swift in Sources */,
 				08142A08295A781100D0765B /* BalanceView.swift in Sources */,
+				08142A1B295BFFB800D0765B /* MainPageView.swift in Sources */,
 				081429FC295A69A800D0765B /* NubankColors.swift in Sources */,
 				08142A0A295A782F00D0765B /* SegueView.swift in Sources */,
 				081429EA295A628100D0765B /* NubankApp.swift in Sources */,
