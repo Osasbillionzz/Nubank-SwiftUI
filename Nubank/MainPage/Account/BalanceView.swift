@@ -10,7 +10,7 @@ import SwiftUI
 struct BalanceView: View {
     var body: some View {
         HStack {
-            Text("R$ 4.812,90")
+            Text("R$ 550.812,90")
             Spacer()
         }
         .padding(.horizontal)
